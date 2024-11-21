@@ -1,0 +1,134 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #efecec;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            background-color: #fafd40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        
+        
+        nav {
+            background-color: #7df6ff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+        }
+        
+        nav a {
+            color: rgb(4, 4, 4);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #1f3f49;
+            color: white;
+            padding: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #faf8f8;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            animation: fadeIn 1s ease;
+        }
+
+        .about-text {
+            flex: 1;
+            padding: 30px;
+        }
+
+        #htag {
+            font-size: 2.8em;
+            color: #d0536d;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .about-text i {
+            margin-right: 10px;
+            color: #d0536d;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .about-image {
+            flex: 1;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+
+        .about-image img:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+#h1tag{
+
+    background: linear-gradient(90deg,#00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#h1tag{
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 10px;
+}
+#headadd{
+    text-transform: uppercase;
+    color: #0f0d0d;
+    font-size: 1em;
+    letter-spacing: 5px;
+
+}
